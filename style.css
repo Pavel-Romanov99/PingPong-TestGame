@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    height: auto;
+}
+
+.image-heading{
+    border: 1px solid black;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.score-container{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.player1, .player2, .reset{
+    border: none;
+    width: 32%;
+    margin: 0px;
+    padding:0;
+    height: 30px;
+}
+
+.player1{
+    background-color: green;
+}
+
+.player2{
+    background-color: cyan;
+}
+
+.reset{
+    background-color: red;
+}
+
+
+input{
+    width: 10%;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.buttons{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
